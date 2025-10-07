@@ -46,14 +46,3 @@ JavaScript (ES6) – Core functionality and DOM interaction
 
 Created with 💫 by Aanchal Kumari
 Explore your cosmic weight and discover how light (or heavy) you’d be across the universe! 🌠
-
-
-
-
-
-
-
-
-
-
-ChatGPT can make mistakes. Check important info. See Cookie Preferences.
