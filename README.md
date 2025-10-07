@@ -32,7 +32,8 @@ It’s a simple, educational tool that visually demonstrates how gravity changes
 
 ---
 
-🧰 Technologies Used
+## 🧰 Technologies Used
+
 HTML5 – Structure of the app
 
 CSS3 – Styling and responsiveness
@@ -41,7 +42,8 @@ JavaScript (ES6) – Core functionality and DOM interaction
 
 ---
 
-👩‍💻 Contact
+## 👩‍💻 Contact
+
 Created with 💫 by Aanchal Kumari
 Explore your cosmic weight and discover how light (or heavy) you’d be across the universe! 🌠
 
