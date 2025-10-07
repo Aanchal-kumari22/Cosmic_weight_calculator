@@ -1,0 +1,150 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(to right, #1e3c72, #2a5298);
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 700px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.08);
+    padding: 30px 20px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.3);
+  }
+  
+  h1 {
+    font-size: 2.2rem;
+    margin-bottom: 20px;
+  }
+  
+  input[type="number"] {
+    padding: 12px;
+    width: 80%;
+    max-width: 300px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 12px 24px;
+    font-size: 1rem;
+    background-color: #ff9800;
+    border: none;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  
+  button:hover {
+    background-color: #e68900;
+  }
+  
+  .result-section {
+    margin-top: 30px;
+    text-align: left;
+    display: none;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+  
+  .result-show {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .result-section h3 {
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  
+  .result-section ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .result-section li {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    font-size: 1rem;
+  }
+  
+  .planet-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-color: #fff1;
+    padding: 3px;
+  }
+  
+  /* -----------------------------
+     📱 Responsive Design
+  ------------------------------ */
+  
+  /* Tablets and small screens */
+  @media (max-width: 768px) {
+    .result-section li {
+      font-size: 0.95rem;
+    }
+  
+    .planet-img {
+      width: 36px;
+      height: 36px;
+      margin-right: 10px;
+    }
+  
+    h1 {
+      font-size: 1.8rem;
+    }
+  
+    button {
+      width: 90%;
+      max-width: 300px;
+    }
+  }
+  
+  /* Phones */
+  @media (max-width: 480px) {
+    .container {
+      padding: 20px 15px;
+    }
+  
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    input[type="number"] {
+      width: 100%;
+    }
+  
+    .result-section li {
+      flex-direction: row;
+      align-items: flex-start;
+      font-size: 0.9rem;
+    }
+  
+    .planet-img {
+      width: 32px;
+      height: 32px;
+      margin-right: 8px;
+    }
+  
+    button {
+      font-size: 0.95rem;
+      padding: 10px 20px;
+    }
+  }
+  
